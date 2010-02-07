@@ -9,7 +9,23 @@ layout: default
   <h2>Related Posts</h2>
   <ul class="posts">
     {% for post in site.related_posts limit:3 %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li><span>{{ post.date | date_to_string }}</span> &rarr; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
+</div>
+
+<div id="categories">
+  <h2>Categories</h2>
+  <ul class="posts">
+    {% for category in page.categories %}
+      <li><span><a href="/tags.html#{{ category }}">{{ category }}</a></span></li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div id="disqus">
+  <h2>Comments</h2>
+  <div id="disqus_thread"></div>
+  <script type="text/javascript" src="http://disqus.com/forums/hackerific/embed.js"></script>
+  <noscript><a href="http://hackerific.disqus.com/?url=/2009/8/1/textmate-makefile-bundle">View the discussion thread.</a></noscript>
 </div>

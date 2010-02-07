@@ -1,0 +1,22 @@
+--- 
+title: snarfr
+layout: post
+category: ruby
+---
+snarfr is a ruby script designed for simply backing up your [flickr](http://www.flickr.com/ "Welcome to Flickr - Photo Sharing") photos. 
+
+It requires a few gems, notably:
+
+  * flickraw
+  * progressbar (≥ 0.9 see: [here](http://0xcc.net/ruby-progressbar/index.html.en "Ruby/ProgressBar: A Text Progress Bar Library for Ruby"))
+  * mini_exiftool
+  * facets/ostruct
+
+To run it, type `ruby snarfr.rb`, or `chmod +x` it, and then do `./snarfr.rb`. It should then begin snarfing yours photos into `./output`, unless you've specified an output directory (as the first argument), in which case things will go there.
+
+snarfr *tries* to be intelligent by saving it's progress to the file `~/.snarfr`, but it only does this when it exits normally. On the first run, it will ask you to authorise it, to do that, you need to visit the URL it gives.
+
+You can find snarfr in subversion at: [snarfr svn](http://svn.my-mili.eu/svn/snarfr/ "snarfr - Revision 10: /"), ready for *you* to snarf. Or you can get it from [GitHub](http://github.com/ "Secure Git hosting and collaborative development &mdash; GitHub") at: [snarfr](http://github.com/mattfoster/snarfr/tree/master "mattfoster's snarfr at master &mdash; GitHub").
+
+Note: I lost the original description page when I nuked my site. So this is a new one.
+
