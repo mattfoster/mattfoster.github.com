@@ -1,10 +1,11 @@
 --- 
 title: About Matt
 layout: post
+categories: about
 ---
 Matt is an Internet Services Developer at <a href="http://netcraft.com">Netcraft</a>. He feels the need to stress that the opinions expressed here are his own.
 
-He now has a PhD from the [University of Bath](http://www.bath.ac.uk), UK, after surviving the examination process, and is very pleased that he'll graduate whilst still 25. 
+He now has a PhD from the [University of Bath](http://www.bath.ac.uk), UK, after surviving the examination process, and is very pleased that he graduated whilst still at the youthful age of 25. 
 
 He lives with the lovely (Dr) [Charlie Beldon](http://charliebeldon.com), in a [very nice basement](http://www.flickr.com/photos/mattfoster/sets/72157594143865676/ "Flat! - a set on Flickr") in the centre of Bath, surrounded by [nice buildings](http://www.flickr.com/photos/mattfoster/sets/72157601599289776/ "Bath Stone: A Study - a set on Flickr"), and [parks](http://www.flickr.com/photos/mattfoster/sets/72157601823551359/ "Prior Park 2007 - a set on Flickr"). He'd like to live somewhere like this when he grows up.
 
