@@ -5,7 +5,8 @@ category: zsh
 ---
 Following on from [ones zeros majors and minors](http://ozmm.org/posts/git_bash_aliases.html) and [Panasonic Youth](http://robsanheim.com/2008/04/16/history-meme-onwards/), I humbly present my top 10 zsh commands: 
 
-		matt@pyxis ~ $ history 0 | awk '{a[$2]++}END{for(i in a){print a[i] " " i}}' | \ sort -rn | head 
+		matt@pyxis ~ $ history 0 | awk '{a[$2]++}END{for(i in a){print a[i] " " i}}' | \ 
+                sort -rn | head 
 		2151 l 
 		1376 cd 
 		631 git 
