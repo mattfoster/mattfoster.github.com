@@ -17,6 +17,7 @@ html, body {
 
 body {
   background-color: white;
+  background-image: url('/images/background3.png');
   font: 13.34px helvetica, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
@@ -79,10 +80,12 @@ ul.posts {
 /*****************************************************************************/
 
 .site {
+  background-color:white;
   font-size: 110%;
   text-align: justify;
   width: 40em;
   margin: 3em auto 2em auto;
+  padding: 2em;
   line-height: 1.5em;
 }
 

@@ -17,7 +17,32 @@ namespace :tags do
 layout: default
 title: Tags
 ---
-  
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $('h3').each(function (){
+    $(this).next().hide()
+  });
+  $('.title').after('<p><span>Click the arrows to show/hide categories.</span></p>');
+});
+$(function(){
+  $('h3').click(function() {
+    var hidden = $(this).next().is(':hidden');
+    if (hidden) {
+      $(this).html(
+        $(this).html().replace('→', '↓')
+      );         
+    } 
+    else {
+      $(this).html(
+        $(this).html().replace('↓', '→')
+      );
+    }
+    $(this).next().slideToggle();
+    return hidden;
+  });
+});
+</script>
     HTML
  
     # Sort by the number of posts in the category.
@@ -25,7 +50,7 @@ title: Tags
 
     categories.reverse.each do |category, posts|
       html << <<-HTML
-      <h3 id="#{category}">#{category}</h3>
+      <h3 id="#{category}">&rarr; #{category}</h3>
       HTML
  
       html << '<ul class="posts">'

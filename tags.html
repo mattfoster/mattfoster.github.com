@@ -2,8 +2,33 @@
 layout: default
 title: Tags
 ---
-  
-      <h3 id="textmate">textmate</h3>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $('h3').each(function (){
+    $(this).next().hide()
+  });
+  $('.title').after('<p><span>Click the arrows to show/hide categories.</span></p>');
+});
+$(function(){
+  $('h3').click(function() {
+    var hidden = $(this).next().is(':hidden');
+    if (hidden) {
+      $(this).html(
+        $(this).html().replace('→', '↓')
+      );         
+    } 
+    else {
+      $(this).html(
+        $(this).html().replace('↓', '→')
+      );
+    }
+    $(this).next().slideToggle();
+    return hidden;
+  });
+});
+</script>
+      <h3 id="textmate">&rarr; textmate</h3>
 <ul class="posts">          <li><span>01 Aug 2009</span> &rarr; <a href="/2009/08/01/textmate-makefile-bundle">TextMate Makefile Bundle</a></li>
           <li><span>19 Feb 2009</span> &rarr; <a href="/2009/02/19/learning-perl-and-perlcritic-for-textmate">Learning Perl (and Perlcritic for TextMate)</a></li>
           <li><span>10 Feb 2009</span> &rarr; <a href="/2009/02/10/adverb-detection-in-textmate">Adverb Detection in TextMate</a></li>
@@ -23,47 +48,47 @@ title: Tags
           <li><span>14 Nov 2008</span> &rarr; <a href="/2008/11/14/installing-getbundles-without-using-the-command-line">Installing GetBundles without using the Command Line</a></li>
           <li><span>14 Nov 2008</span> &rarr; <a href="/2008/11/14/announcing-the-ipython-textmate-bundle">Announcing the IPython TextMate Bundle</a></li>
           <li><span>11 Nov 2008</span> &rarr; <a href="/2008/11/11/matlab-bundle-merge">Matlab Bundle Merge</a></li>
-</ul>      <h3 id="software">software</h3>
+</ul>      <h3 id="software">&rarr; software</h3>
 <ul class="posts">          <li><span>09 Apr 2009</span> &rarr; <a href="/2009/04/09/my-favourite-software">My Favourite Software</a></li>
           <li><span>06 Feb 2009</span> &rarr; <a href="/2009/02/06/my-macheist-release-estimate">My MacHeist Release Estimate</a></li>
           <li><span>03 Feb 2009</span> &rarr; <a href="/2009/02/03/screencast-launchbar-bibdesk-and-google-scholar">Screencast: LaunchBar, BibDesk and Google Scholar</a></li>
           <li><span>21 Jan 2009</span> &rarr; <a href="/2009/01/21/matlab-interpolation-toolkit">MATLAB Interpolation Toolkit</a></li>
           <li><span>25 Jun 2008</span> &rarr; <a href="/2008/06/25/matlab">MATLAB / Octave Code and Docs</a></li>
-</ul>      <h3 id="git">git</h3>
+</ul>      <h3 id="git">&rarr; git</h3>
 <ul class="posts">          <li><span>30 Jan 2009</span> &rarr; <a href="/2009/01/30/git-ready-and-the-zsh-prompt">Git Ready and the ZSH Prompt</a></li>
           <li><span>05 Aug 2008</span> &rarr; <a href="/2008/08/05/git-failed-to-push-some-refs">Git: failed to push some refs</a></li>
           <li><span>06 Jul 2008</span> &rarr; <a href="/2008/07/06/code-updates-and-i-m-off-to-boston">Code Updates and I'm Off To Boston</a></li>
-</ul>      <h3 id="zsh">zsh</h3>
+</ul>      <h3 id="zsh">&rarr; zsh</h3>
 <ul class="posts">          <li><span>30 Jan 2009</span> &rarr; <a href="/2009/01/30/git-ready-and-the-zsh-prompt">Git Ready and the ZSH Prompt</a></li>
           <li><span>23 Jan 2009</span> &rarr; <a href="/2009/01/23/zsh-abbreviations">ZSH Abbreviations</a></li>
           <li><span>04 Jun 2008</span> &rarr; <a href="/2008/06/04/history-meme-redux">History meme redux...</a></li>
-</ul>      <h3 id="python">python</h3>
+</ul>      <h3 id="python">&rarr; python</h3>
 <ul class="posts">          <li><span>06 Feb 2009</span> &rarr; <a href="/2009/02/06/paramiko-scripting-ssh-with-python">Paramiko: Scripting SSH with Python </a></li>
           <li><span>01 Aug 2008</span> &rarr; <a href="/2008/08/01/python-and-science-the-way-forward">Python and Science… The Way Forward?</a></li>
-</ul>      <h3 id="paper">paper</h3>
+</ul>      <h3 id="paper">&rarr; paper</h3>
 <ul class="posts">          <li><span>25 Aug 2008</span> &rarr; <a href="/2008/08/25/paper-segmentation-and-tracking-of-ionospheric-storm-enhancements">Paper: Segmentation and Tracking of Ionospheric Storm Enhancements</a></li>
           <li><span>24 Jun 2008</span> &rarr; <a href="/2008/06/24/published-author">Published Author!</a></li>
-</ul>      <h3 id="conference">conference</h3>
+</ul>      <h3 id="conference">&rarr; conference</h3>
 <ul class="posts">          <li><span>17 Sep 2008</span> &rarr; <a href="/2008/09/17/spie-europe-remote-sensing-cardiff-debrief">SPIE Europe Remote Sensing (Cardiff) Debrief</a></li>
           <li><span>16 Jul 2008</span> &rarr; <a href="/2008/07/16/igarss-buzzwords">IGARSS Buzzwords</a></li>
-</ul>      <h3 id="ruby">ruby</h3>
+</ul>      <h3 id="ruby">&rarr; ruby</h3>
 <ul class="posts">          <li><span>15 Jul 2008</span> &rarr; <a href="/2008/07/15/snarfr">snarfr</a></li>
           <li><span>15 Jul 2008</span> &rarr; <a href="/2008/07/15/automated-photo-borders">Automated Photo Borders</a></li>
-</ul>      <h3 id="matlab">matlab</h3>
+</ul>      <h3 id="matlab">&rarr; matlab</h3>
 <ul class="posts">          <li><span>21 Jan 2009</span> &rarr; <a href="/2009/01/21/matlab-interpolation-toolkit">MATLAB Interpolation Toolkit</a></li>
           <li><span>25 Jun 2008</span> &rarr; <a href="/2008/06/25/matlab">MATLAB / Octave Code and Docs</a></li>
-</ul>      <h3 id="hardware">hardware</h3>
+</ul>      <h3 id="hardware">&rarr; hardware</h3>
 <ul class="posts">          <li><span>24 Sep 2008</span> &rarr; <a href="/2008/09/24/ethernet-cable-pinouts">Ethernet Cable Pinouts</a></li>
-</ul>      <h3 id="programming">programming</h3>
+</ul>      <h3 id="programming">&rarr; programming</h3>
 <ul class="posts">          <li><span>15 Feb 2009</span> &rarr; <a href="/2009/02/15/best-practices-and-patterns">Best Practices and Patterns </a></li>
-</ul>      <h3 id="gnuplot">gnuplot</h3>
+</ul>      <h3 id="gnuplot">&rarr; gnuplot</h3>
 <ul class="posts">          <li><span>01 Sep 2008</span> &rarr; <a href="/2008/09/01/getting-a-working-gnuplot-for-the-textmate-bundle">Getting a working Gnuplot for the TextMate bundle</a></li>
-</ul>      <h3 id="template">template</h3>
+</ul>      <h3 id="template">&rarr; template</h3>
 <ul class="posts">          <li><span>10 Feb 2009</span> &rarr; <a href="/2009/02/10/static-site-generation">Static Site Generation</a></li>
-</ul>      <h3 id="make">make</h3>
+</ul>      <h3 id="make">&rarr; make</h3>
 <ul class="posts">          <li><span>23 Mar 2009</span> &rarr; <a href="/2009/03/23/makerfaire_uk-in-a-diy-frame-of-mind">Makerfaire_uk: In a DIY frame of mind</a></li>
-</ul>      <h3 id="photos">photos</h3>
+</ul>      <h3 id="photos">&rarr; photos</h3>
 <ul class="posts">          <li><span>15 Jul 2008</span> &rarr; <a href="/2008/07/15/automated-photo-borders">Automated Photo Borders</a></li>
-</ul>      <h3 id="phd">phd</h3>
+</ul>      <h3 id="phd">&rarr; phd</h3>
 <ul class="posts">          <li><span>21 Jan 2009</span> &rarr; <a href="/2009/01/21/matlab-interpolation-toolkit">MATLAB Interpolation Toolkit</a></li>
 </ul>
