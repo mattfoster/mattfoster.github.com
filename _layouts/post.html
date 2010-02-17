@@ -1,6 +1,18 @@
 ---
 layout: default
 ---
+
+<h1>{{ page.title }}</h1>
+
+<p class="info">Posted on: {{ page.date | date: "%d %B %Y"}}
+{% if page.categories %}
+in {% for category in page.categories %}
+  <a href="/tags.html#{{ category }}">{{ category }}</a>
+  {% unless forloop.last %},{% endunless %}
+{% endfor %}
+{% endif %}
+</p>
+
 <div id="post">
 {{ content }}
 </div>
@@ -11,17 +23,6 @@ layout: default
   <ul class="posts">
     {% for post in site.related_posts limit:3 %}
       <li><span>{{ post.date | date_to_string }}</span> &rarr; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
-{% endif %}
-
-{% if page.categories %}
-<div id="categories">
-  <h2>Categories</h2>
-  <ul class="posts">
-    {% for category in page.categories %}
-      <li><span><a href="/tags.html#{{ category }}">{{ category }}</a></span></li>
     {% endfor %}
   </ul>
 </div>
