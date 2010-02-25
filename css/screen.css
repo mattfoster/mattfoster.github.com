@@ -18,7 +18,7 @@ html, body {
 body {
   background-color: white;
   background-image: url('/images/background3.png');
-  font: 13.34px helvetica, arial, clean, sans-serif;
+  font: 13.34px "lucida grande", verdana, sans-serif;
   *font-size: small;
   text-align: center;
 }
