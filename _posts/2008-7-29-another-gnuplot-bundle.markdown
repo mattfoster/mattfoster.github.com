@@ -1,7 +1,10 @@
 --- 
 title: Another Gnuplot Bundle!
+categories: 
+- gnuplot
+- textmate
+- bundle
 layout: post
-category: textmate
 ---
 Whilst surfing [GitHub](http://github.com/ "Secure Git hosting and collaborative development &mdash; GitHub"), the new standard repository for all of the World's
 cool repositories, I stumbled across

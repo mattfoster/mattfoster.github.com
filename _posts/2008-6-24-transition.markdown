@@ -1,5 +1,9 @@
 --- 
 title: Transitioned to Mephisto
+categories: 
+- mephisto
+- typo
+- transition
 layout: post
 ---
 ## I've Moved to Mephisto!

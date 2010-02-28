@@ -1,10 +1,15 @@
 --- 
 title: More Chaco
+categories: 
+- code
+- python
+- plot
+- epd
 layout: post
 ---
 I've been doing a little bit more tweaking with chaco, learning how to use groups and containers. The [docs](http://code.enthought.com/projects/chaco/docs/html/quickstart.html "Quickstart &mdash; Chaco v3.0.0 documentation") are great, if a bit incomplete, so I ended up looking at various examples.
 
-I've updated my [simple AM demo](http://my-mili.eu/2008/11/5/exploration-with-chaco "hackerific: Exploration with Chaco") so that it now shows the frequency content of the signal (calculated on the fly, using an FFT).
+I've updated my [simple AM demo](/2008/11/5/exploration-with-chaco "hackerific: Exploration with Chaco") so that it now shows the frequency content of the signal (calculated on the fly, using an FFT).
 
 The running program looks like this:
 

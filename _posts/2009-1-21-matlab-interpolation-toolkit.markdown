@@ -1,10 +1,10 @@
 --- 
 title: MATLAB Interpolation Toolkit
-layout: post
 categories: 
- - matlab
- - phd
- - software
+- matlab
+- interpolation
+- toolkit
+layout: post
 ---
 
 During the course of my PhD, I've spent quite a lot of time examining methods of interpolating scattered data. By *scattered*, I mean something that looks like this:

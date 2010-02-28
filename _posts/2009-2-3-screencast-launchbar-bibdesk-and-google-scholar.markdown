@@ -1,7 +1,14 @@
 --- 
 title: "Screencast: LaunchBar, BibDesk and Google Scholar"
+categories: 
+- screencast
+- launchbar
+- mac
+- bibdesk
+- reference
+- bibtex
+- google
 layout: post
-category: software
 ---
 I spend quite a bit of time looking for references on [Google Scholar](http://scholar.google.com/ "Google Scholar"), and decided to see what I could do with [LaunchBar 5](http://www.obdev.at/products/launchbar/index.html "LaunchBar 5 Beta") to make my life easier. Here's a quick screencast to show what I've got going on: 
 

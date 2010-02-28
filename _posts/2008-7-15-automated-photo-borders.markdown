@@ -1,9 +1,12 @@
 --- 
 title: Automated Photo Borders
-layout: post
 categories: 
- - photos
- - ruby
+- code
+- ruby
+- imagemagick
+- photos
+- border
+layout: post
 ---
 If you've ever wanted to automatically add a coloured border to an image, then this ruby script might come in handy. 
 

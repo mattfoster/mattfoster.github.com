@@ -1,7 +1,10 @@
 --- 
 title: Static Site Generation
+categories: 
+- python
+- site
+- template
 layout: post
-category: template
 ---
 There seems to have been a recent glut in static site generators. It looks like you can pick your templating language, and find a generator to go with it. Recently, I discovered [hyde](http://github.com/lakshmivyas/hyde/tree/master "lakshmivyas's hyde at master - GitHub") via the [github blog](http://github.com/blog/342-hyde-the-python-static-site-generator "Hyde - The Python Static Site Generator - GitHub"), and decided it was worth trying out on a project I'm working on. That project is [zshbits](http://zshbits.com), a tutorial/screencast site for ZSH. I'll be unveiling some zshbits content soon (for now I'm waiting for a cold to let up, so I don't sound quite so nasal, and a [new microphone](http://www.samsontech.com/products/productpage.cfm?prodID=1904 "Samson Audio - C01U Recording Pak")) and readers here will be the first to know.
 

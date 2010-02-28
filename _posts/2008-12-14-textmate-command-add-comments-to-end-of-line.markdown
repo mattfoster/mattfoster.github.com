@@ -1,7 +1,11 @@
 --- 
 title: "TextMate Command: Add comments to end of line"
+categories: 
+- textmate
+- python
+- command
+- comment
 layout: post
-category: textmate
 ---
 After reading [this message](http://www.nabble.com/insert-end-of-line-comments-td20993813.html "Nabble - textmate users - insert end-of-line comments") on the textmate-users mailing list, I decided to have a go at writing a command to add comment chars to the ends of lines. Here's what I ended up with:
 

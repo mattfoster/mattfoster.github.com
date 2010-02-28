@@ -1,9 +1,11 @@
 --- 
 title: MATLAB / Octave Code and Docs
+categories: 
+- matlab
+- octave
+- code
+- docs
 layout: post
-categories:
- - matlab
- - software
 ---
 During the course of my PhD, and undergraduate degree, I've amassed quite a lot of MATLAB code, and knowledge.
 
@@ -11,7 +13,7 @@ This page will be the where I try to share some of that knowledge and code.
 
 ## Documents:
 
-  * [Writing MEX Files for Image Processing](http://my-mili.eu/assets/2008/6/25/image_mex.pdf)
+  * [Writing MEX Files for Image Processing](http://files.my-mili.eu/image_mex.pdf)
 
 ## Code on [GitHub](http://github.com)
 

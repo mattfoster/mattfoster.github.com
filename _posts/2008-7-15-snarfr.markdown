@@ -1,7 +1,10 @@
 --- 
 title: snarfr
+categories: 
+- code
+- flickr
+- ruby
 layout: post
-category: ruby
 ---
 snarfr is a ruby script designed for simply backing up your [flickr](http://www.flickr.com/ "Welcome to Flickr - Photo Sharing") photos. 
 

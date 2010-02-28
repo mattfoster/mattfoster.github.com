@@ -1,7 +1,12 @@
 --- 
 title: "Screencast: IPython Bundle Demo"
+categories: 
+- textmate
+- python
+- screencast
+- ipython
+- budle
 layout: post
-category: textmate
 ---
 I'm very pleased to announce that the IPython TextMate bundle is in a state
 where it can actually be used – you can probably consider it to be a pre-beta.

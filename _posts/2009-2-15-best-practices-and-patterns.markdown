@@ -1,7 +1,10 @@
 --- 
 title: "Best Practices and Patterns "
+categories: 
+- learning
+- best_practices
+- idioms
 layout: post
-category: programming
 ---
 <a href="http://files.my-mili.eu/Best_Practices.m4a">Listen to this post</a>
 

@@ -1,11 +1,14 @@
 --- 
 title: Learning Perl (and Perlcritic for TextMate)
+categories: 
+- textmate
+- learning
+- perl
 layout: post
-category: textmate
 ---
-Now, just just leave straight away, but I'm learning [perl](http://www.perl.org/ "The Perl Directory - perl.org"). I know I've only just started waxing lyrical about python, but bear with me, I've not got any plans to dump anything else: I just need to learn perl for work. (If you read on in this post, you'll find some ruby code, too!)
+Now, don't just leave straight away, but I'm learning [perl](http://www.perl.org/ "The Perl Directory - perl.org"). I know I've only just started waxing lyrical about python, but bear with me, I've not got any plans to dump anything else: I just need to learn perl for work. (If you read on in this post, you'll find some ruby code, too!)
 
-So, armed with some of the ideas from comments on my [last post](http://my-mili.eu/2009/2/15/best-practices-and-patterns "hackerific: Best Practices and Patterns"), I've tried to build make use of some of the most trendy web resources to help me on my way. Ideally, I'd like to pick up on best practices as I go along.
+So, armed with some of the ideas from comments on my [last post](/2009/02/15/best-practices-and-patterns "hackerific: Best Practices and Patterns"), I've tried to build make use of some of the most trendy web resources to help me on my way. Ideally, I'd like to pick up on best practices as I go along.
 
 ![information overload](http://farm4.static.flickr.com/3397/3293063926_736d8c02ba.jpg?v=0)
 

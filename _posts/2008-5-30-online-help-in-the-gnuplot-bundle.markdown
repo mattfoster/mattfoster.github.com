@@ -1,7 +1,11 @@
 --- 
 title: Online Help in the Gnuplot Bundle
+categories: 
+- gnuplot
+- textmate
+- bundle
+- help
 layout: post
-category: textmate
 ---
 On of the things that makes [gnuplot](http://www.gnuplot.info/ "gnuplot homepage") so powerful is its dazzling array of options. With this great number of options comes a heavy reliance on the manual, and this has meant that until recently, when I was scripting graphs for my thesis I had to have [TextMate](http://macromates.com/ "TextMate — The Missing Editor for Mac OS X") and a terminal running gnuplot fired up, and keep on switching between them when I needed to get some help.
 

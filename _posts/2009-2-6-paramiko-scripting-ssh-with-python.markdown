@@ -1,7 +1,10 @@
 --- 
 title: "Paramiko: Scripting SSH with Python "
+categories: 
+- python
+- ssh
+- administration
 layout: post
-category: python
 ---
 Python Scriptable SSH 
 

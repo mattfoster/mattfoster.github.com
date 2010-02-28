@@ -1,7 +1,13 @@
 --- 
 title: Refactoring Commands in the MATLAB Bundle
+categories: 
+- textmate
+- bundle
+- matlab
+- github
+- svn
+- refactoring
 layout: post
-category: textmate
 ---
 Sometimes, after seeing a few things, concepts collide (like icebergs, perhaps), and I come up with ideas I think are cool. Here's one of those:
 

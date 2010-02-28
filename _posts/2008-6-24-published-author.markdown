@@ -1,7 +1,9 @@
 --- 
 title: Published Author!
+categories: 
+- research
+- interpolation
 layout: post
-category: paper
 ---
 Finally, after a nine-month wait, preceded by a year long slog, my paper has made it into print! I am, of course, very pleased :)
 

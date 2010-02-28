@@ -1,7 +1,10 @@
 --- 
 title: Adverb Detection in TextMate
+categories: 
+- textmate
+- language
+- grammar
 layout: post
-category: textmate
 ---
 After seeing [lifehacker](http://lifehacker.com/240522/lifehacker-code--the-ly-detector-greasemonkey-user-script), I was inspired to add an adverb detector to TextMate's markdown grammar, since that's the format I use to write blog posts. 
 

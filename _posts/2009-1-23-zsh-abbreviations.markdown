@@ -1,8 +1,11 @@
 --- 
 title: ZSH Abbreviations
-layout: post
 categories: 
- - zsh
+- zsh
+- shell
+- tips
+- config
+layout: post
 ---
 Abbreviations are ZSH feature I just stumbled across, whilst proselytising about [GRML](http://grml.org/ "grml.org - Linux Live-CD for sysadmins and texttools-users"), a cool linux distro. 
 

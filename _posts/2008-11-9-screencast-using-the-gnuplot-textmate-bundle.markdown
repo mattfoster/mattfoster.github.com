@@ -1,7 +1,12 @@
 --- 
 title: "Screencast: Using the Gnuplot TextMate Bundle "
+categories: 
+- gnuplot
+- textmate
+- bundle
+- screencast
+- plotting
 layout: post
-category: textmate
 ---
 I had so much fun making my previous screencast, on installing the Gnuplot TextMate bundle, that I decided to make another one. This one is about _using_ the bundle. It includes info on snippets and commands, as well as the `TM_GNUPLOT` variable I introduced. Setting this variable allows you to choose the gnuplot executable. 
 

@@ -1,7 +1,11 @@
 --- 
 title: TextMate Makefile Bundle
+categories: 
+- textmate
+- bundle
+- make
+- makefile
 layout: post
-category: textmate
 ---
 Recently, I've needed to write and use various Makefiles. I was disappointed to find the TM's syntax highlighting lacking, and just not colourful enough, so I set about adding a few bits and pieces.
 

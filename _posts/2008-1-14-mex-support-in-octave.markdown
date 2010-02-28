@@ -1,5 +1,11 @@
 --- 
 title: MEX Support in Octave
+categories: 
+- matlab
+- mex
+- octave
+- computing
+- science
 layout: post
 ---
 I used to be a fairly heavily [Octave](http://www.octave.org/ "Octave") user,

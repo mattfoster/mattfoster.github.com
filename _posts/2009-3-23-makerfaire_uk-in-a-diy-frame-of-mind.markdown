@@ -1,7 +1,12 @@
 --- 
 title: "Makerfaire_uk: In a DIY frame of mind"
+categories: 
+- make
+- tvbgone
+- qrcode
+- bag
+- patch
 layout: post
-category: make
 ---
 I was lucky enough to visit Newcastle Upon Tyne for the Makerfaire_uk this March, and since then I've been brimming with ideas, and feeling the need to make things. This post is partially here to demonstrate that I am, in fact, still alive, and to show off a couple of little things I've made.
 

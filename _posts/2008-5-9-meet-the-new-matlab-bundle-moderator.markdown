@@ -1,7 +1,10 @@
 --- 
 title: Meet the New Matlab Bundle Moderator
+categories: 
+- textmate
+- bundle
+- matlab
 layout: post
-category: textmate
 ---
 I've taken over maintainership of the TextMate Matlab bundle as of last week, after what seems to have been quite a long period without a maintainer. Hopefully, I can fix a few of the glitches (hopefully I already have), and I've got plans to add various bits of useful functionality.
 

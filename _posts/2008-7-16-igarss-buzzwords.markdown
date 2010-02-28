@@ -1,7 +1,10 @@
 --- 
 title: IGARSS Buzzwords
+categories: 
+- conference
+- techniques
+- igarss
 layout: post
-category: conference
 ---
 It's probably impossible to go to a conference without picking up some kind of idea of the current trends in the areas being discussed. IGARSS 2008 was certainly no exception. Here's a list of what I think were probably the most *trendy* techniques in remote sensing. You can probably make a list like this just by graphing the frequency of word use:
 

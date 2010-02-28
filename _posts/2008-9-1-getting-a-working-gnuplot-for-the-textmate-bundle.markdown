@@ -1,9 +1,11 @@
 --- 
 title: Getting a working Gnuplot for the TextMate bundle
-layout: post
 categories: 
- - textmate
- - gnuplot
+- gnuplot
+- textmate
+- bundle
+- github
+layout: post
 ---
 I've been looking at getting a good build of "gnuplot":http://gnuplot.info/ with everything I need for the bundle, and so I've tried various versions. 
 

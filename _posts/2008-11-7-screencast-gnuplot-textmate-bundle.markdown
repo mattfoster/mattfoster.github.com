@@ -1,7 +1,12 @@
 --- 
 title: "Screencast: Gnuplot TextMate Bundle "
+categories: 
+- gnuplot
+- textmate
+- bundle
+- screencast
+- plotting
 layout: post
-category: textmate
 ---
 I proudly present: my first foray into screencasting! 
 

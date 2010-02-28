@@ -1,5 +1,10 @@
 --- 
 title: "Z-shell productivity: the prompt and title"
+categories: 
+- zsh
+- shell
+- github
+- prompt
 layout: post
 ---
 I've recently been playing with a cool project on GitHub:

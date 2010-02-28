@@ -1,7 +1,12 @@
 --- 
 title: MATLAB Bundle has been GitHubbed
+categories: 
+- textmate
+- bundle
+- matlab
+- octave
+- git.github
 layout: post
-category: textmate
 ---
 This is just a quick note to say that I've push a copy of the "MATLAB":http://www.mathworks.com/ "TextMate":http://macromates.com/ bundle to "GitHub":http://github.com/.
 

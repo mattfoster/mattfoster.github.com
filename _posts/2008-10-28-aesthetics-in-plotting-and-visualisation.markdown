@@ -1,5 +1,10 @@
 --- 
 title: Aesthetics in Plotting and Visualisation
+categories: 
+- matlab
+- code
+- python
+- plot
 layout: post
 ---
 I'm fairly sure that aesthetics play a large part in how people view your work

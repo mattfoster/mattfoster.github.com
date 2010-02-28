@@ -1,7 +1,10 @@
 --- 
 title: "Paper: Segmentation and Tracking of Ionospheric Storm Enhancements"
+categories: 
+- research
+- conference
+- paper
 layout: post
-category: paper
 ---
 I've just submitted this paper for the SPIE Europe Remote Sensing Conference due to be help in Cardiff on 16th September, 2008.
 

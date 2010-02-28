@@ -1,5 +1,10 @@
 --- 
 title: Exploration with Chaco
+categories: 
+- code
+- python
+- plot
+- epd
 layout: post
 ---
 This morning I was reading this [tutorial](http://code.enthought.com/projects/chaco/docs/html/user_manual/tutorial_2.html "Modelling Van Der Waal&#8217;s Equation With Chaco &mdash; Chaco v3.0.0 documentation") on Chaco, a 2-D visualisation toolkit for Python (it's part of the [enthought python distribution](http://www.enthought.com/products/epd.php "Enthought Python Distribution :: Products :: Enthought, Inc.")), and I wanted a toy project to get a feel for it. 

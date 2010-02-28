@@ -1,5 +1,9 @@
 --- 
 title: Gnuplot gets iterators
+categories: 
+- gnuplot
+- iterators
+- iteration
 layout: post
 ---
 Whilst looking at the [gnuplot website](http://www.gnuplot.info/ "gnuplot homepage"), I discovered the [demo page](http://gnuplot.sourceforge.net/demo_4.3/ "Demo scripts for gnuplot CVS version"), which shows, amongst other things, new features in the CVS version. 

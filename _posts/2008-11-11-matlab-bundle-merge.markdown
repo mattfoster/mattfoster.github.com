@@ -1,7 +1,11 @@
 --- 
 title: Matlab Bundle Merge
+categories: 
+- textmate
+- bundle
+- matlab
+- svn
 layout: post
-category: textmate
 ---
 I've successfully committed [Thomas Kjosmoen's](http://kjosmoen.org/) matlab bundle changes into the (relocated) macromates [SVN repository](http://svn.textmate.org/trunk/Bundles/Matlab.tmbundle/). His work is absolutely stellar, so I recommend you grab the bundle ASAP. I've also managed to keep the useful extensions I made to the previous incarnation intact.
 

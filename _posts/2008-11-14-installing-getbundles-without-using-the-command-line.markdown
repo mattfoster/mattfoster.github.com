@@ -1,7 +1,9 @@
 --- 
 title: Installing GetBundles without using the Command Line
+categories: 
+- textmate
+- getbundles
 layout: post
-category: textmate
 ---
 I realise that to lots of Mac users, having to use the command line is like having to hunt and kill you own food. That's fair enough.
 

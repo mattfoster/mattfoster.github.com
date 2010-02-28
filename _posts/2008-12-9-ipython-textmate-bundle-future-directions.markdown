@@ -1,7 +1,11 @@
 --- 
 title: "IPython TextMate Bundle: Future Directions"
+categories: 
+- textmate
+- python
+- ipython
+- budle
 layout: post
-category: textmate
 ---
 IPython Server
 --------------

@@ -1,5 +1,11 @@
 --- 
 title: Forget droplets, use Dterm!
+categories: 
+- terminal
+- cli
+- interface
+- apple
+- leopard
 layout: post
 ---
 A few days ago, on one of my regular [del.icio.us/popular](http://del.icio.us/popular/ "Popular pages on del.icio.us") <strike>procrastination</strike> research trawls, I discovered [DTerm](http://www.decimus.net/dterm.php "DTerm"), a HUD style, context-sensitive, drop down command line thingemy. It's pretty cool, with useful features like 'insert selected items', and 'copy results' and after a couple of updates I can see it being totally great. 

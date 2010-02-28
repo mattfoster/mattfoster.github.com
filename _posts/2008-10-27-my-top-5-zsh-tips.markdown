@@ -1,5 +1,9 @@
 --- 
 title: "My top 5 ZSH tips! "
+categories: 
+- zsh
+- shell
+- tips
 layout: post
 ---
 Since reading [this question](http://stackoverflow.com/questions/43321/worth-switching-to-zsh-for-casual-use#83754 "Worth switching to zsh for casual use? - Stack Overflow") on [stackoverflow](http://stackoverflow.com/ "Stack Overflow") I've been intrigued by zsh, and looking at cool things it can do to make my life easier. I decided to jump on the top-*n* things bandwagon and publish a quick list of zsh bits I find really useful.

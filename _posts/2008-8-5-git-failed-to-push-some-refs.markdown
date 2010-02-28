@@ -1,7 +1,10 @@
 --- 
 title: "Git: failed to push some refs"
+categories: 
+- git
+- github
+- thesis
 layout: post
-category: git
 ---
 I'm keeping my PhD thesis in a private repository on GitHub, because you can never have enough copies. 
 

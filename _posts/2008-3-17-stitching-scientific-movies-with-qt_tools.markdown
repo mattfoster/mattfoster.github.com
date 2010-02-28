@@ -1,5 +1,10 @@
 --- 
 title: Stitching scientific movies with qt_tools
+categories: 
+- matlab
+- movie
+- graph
+- quicktime
 layout: post
 ---
 Recently, I've been generating gazillions of sequences of pngs that I've saved from MATLAB. The filenames look like:

@@ -1,7 +1,10 @@
 --- 
 title: Ethernet Cable Pinouts
+categories: 
+- diagram
+- ethernet
+- cable
 layout: post
-category: hardware
 ---
 After searching for a while for a decent vector image of ethernet cable pinouts, and coming up short, I decided it was time to draw my own.
 

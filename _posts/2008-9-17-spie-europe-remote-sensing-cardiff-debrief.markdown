@@ -1,7 +1,11 @@
 --- 
 title: SPIE Europe Remote Sensing (Cardiff) Debrief
+categories: 
+- conference
+- presentation
+- spie
+- cardiff
 layout: post
-category: conference
 ---
 Well, I'm now back from [UWIC](http://www.uwic.ac.uk/ "Welcome to UWIC"), in Cardiff, so I thought I'd write down my
 thoughts of what's currently happening in the world of image processing for

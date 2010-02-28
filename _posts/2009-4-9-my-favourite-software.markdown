@@ -1,7 +1,10 @@
 --- 
 title: My Favourite Software
+categories: 
+- mac
+- software
+- review
 layout: post
-category: software
 ---
 After what seems to have been a super-successful [macheist](http://www.macheist.com/ "MacHeist &raquo; Welcome"), I thought that now was a good time to describe my all time favourite Mac software. So, here's a list of the best bits: the ones that I probably couldn't live without:
 

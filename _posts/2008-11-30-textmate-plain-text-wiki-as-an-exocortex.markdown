@@ -1,7 +1,11 @@
 --- 
 title: TextMate Plain Text Wiki as an Exocortex
+categories: 
+- textmate
+- bundle
+- wiki
+- markdown
 layout: post
-category: textmate
 ---
 I got a copy of [Pragmatic Thinking and Learning](http://www.pragprog.com/titles/ahptl "The Pragmatic Bookshelf | Pragmatic Thinking and Learning") when it came out a while ago, and I just finished reading it. I really wish I'd read it *before* I embarked on a PhD!
 

@@ -1,5 +1,9 @@
 --- 
 title: Status
+categories: 
+- status
+- online
+- music
 layout: post
 ---
 For your all your online stalking needs, I present my hugely ugly aggregated online status page.

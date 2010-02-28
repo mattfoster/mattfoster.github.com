@@ -1,7 +1,10 @@
 --- 
 title: Gnuplot Bundle for TextMate
+categories: 
+- gnuplot
+- textmate
+- bundle
 layout: post
-category: textmate
 ---
 I've recently started developing a [Gnuplot](http://www.gnuplot.info/ "gnuplot homepage") bundle for [TextMate](http://macromates.com/ "TextMate — The Missing Editor for Mac OS X"), and I've decided to host it on [GitHub](http://github.com/ "Secure Git hosting and collaborative development &mdash; GitHub"). Like a lot of people, I've recently started using Git instead of [SVK](http://svk.bestpractical.com/ "HomePage - SVK Wiki"), my previous choice of distributed VCS and [SVN](http://subversion.tigris.org/ "subversion.tigris.org"), so hosting on GitHub seemed a natural choice; plus how could I possibly ignore their cool [network graphs](http://github.com/Caged/gitnub/network)?! 
 

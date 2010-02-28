@@ -1,7 +1,13 @@
 --- 
 title: Announcing the IPython TextMate Bundle
+categories: 
+- textmate
+- bundle
+- python
+- github
+- ipython
+- scientific_computing
 layout: post
-category: textmate
 ---
 After being shown the huge potential of mixing [TextMate](http://macromates.com/ "TextMate — The Missing Editor for Mac OS X") with [IPython](http://ipython.scipy.org/moin/ "FrontPage - IPython") via a [little applescript](http://ipython.scipy.org/moin/Cookbook/UsingIPythonWithTextMate), I started work on the [IPython TextMate](http://github.com/mattfoster/ipython-tmbundle "mattfoster's ipython-tmbundle at master &mdash; GitHub") bundle. I also set up a [google group](http://groups.google.com/group/ipython-tmbundle/), and talked to the ipython-users mailing list. Their response was great, and they've allowed us to discuss the project on the [ipython-dev](http://projects.scipy.org/mailman/listinfo/ipython-dev "IPython-dev Info Page") list, if we tag message subjects with `[TextMate]`. There's also a possibility that we can distribute the bundle with IPython in the future!
 

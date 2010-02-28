@@ -1,9 +1,11 @@
 --- 
 title: Git Ready and the ZSH Prompt
-layout: post
 categories: 
- - zsh
- - git 
+- zsh
+- git
+- github
+- prompt
+layout: post
 ---
 Git is one of those programs, like, say [vim](http://www.vim.org/ "welcome home : vim online"), which contains more functionality than it seems humanly possible to grasp. Thankfully, there are sites like [gitready](http://gitready.com/ "git ready &raquo; daily tips for the noob to the guru"), which are designed to help us mere mortals to grasp the awesomeness.
 

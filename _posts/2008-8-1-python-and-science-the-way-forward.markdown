@@ -1,7 +1,10 @@
 --- 
 title: "Python and Science\xE2\x80\xA6 The Way Forward?"
+categories: 
+- matlab
+- python
+- scientific computing
 layout: post
-category: python
 ---
 Every now and then, I get really annoyed with
 [MATLAB](http://www.mathworks.com/ "The MathWorks - MATLAB and Simulink for Technical Computing")/[Octave](http://www.gnu.org/software/octave/ "Octave").

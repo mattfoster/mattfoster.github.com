@@ -1,5 +1,10 @@
 --- 
 title: "Quick hack: Samsung SGH-F400 and iSync"
+categories: 
+- apple
+- mobile
+- phone
+- isync
 layout: post
 ---
 *Warning*: this is properly hackerific! 

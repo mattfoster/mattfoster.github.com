@@ -1,7 +1,11 @@
 --- 
 title: My MacHeist Release Estimate
+categories: 
+- bundle
+- python
+- numpy
+- macheist
 layout: post
-category: software
 ---
 Like a lot of mac users, I get excited about MacHeist, and why not, it's fun and a good bargain.
 

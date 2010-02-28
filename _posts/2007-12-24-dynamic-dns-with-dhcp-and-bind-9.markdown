@@ -1,5 +1,11 @@
 --- 
 title: Dynamic DNS with DHCP and BIND 9
+categories: 
+- dns
+- bind
+- dhcp
+- dynamic
+- network
 layout: post
 ---
 <div class="item">
