@@ -8,15 +8,15 @@ categories:
 layout: post
 ---
 
-I've been working on moving my blog to GitHub, and I've ported it to [Jekyll](http://wiki.github.com/mojombo/jekyll "Home - jekyll - GitHub"). This means it should be faster and more secure than Mephisto, which was always stuck several versions behind the current release. 
+Recently, I've been working on moving my blog to GitHub, and I've ported it to [Jekyll](http://wiki.github.com/mojombo/jekyll "Home - jekyll - GitHub"). This means it should be faster and more secure than Mephisto, which was always stuck several versions behind the current release, due to countless problems uploading and keeping the features I wanted. Thankfully, I've found ways of keeping those features with Jekyll. 
 
-It should be obvious to any past visitors that I've had a go at redesigning the site. The new design is based on [mojombo's](http://github.com/mattfoster/mattfoster.github.com "mattfoster's mattfoster.github.com at master - GitHub")) and as so as with his repository everything but the `_posts` directory is MIT licensed.
+It might obvious to any past visitors that I've had a go at redesigning the site. The new design is based on [mojombo's](http://github.com/mattfoster/mattfoster.github.com "mattfoster's mattfoster.github.com at master - GitHub")) and as so as with his repository everything but the `_posts` directory is MIT licensed.
 
-Whilst getting everything set up I had to make some changes and tweaks to some scripts to get the behaviour I wanted. I'll list these below.
+Whilst getting everything set up I had to make some changes and tweaks to some scripts and settings to get the behaviour I wanted. I'll list these below in the hope that they'll be useful to future migrators.
 
 First off is my [Rakefile](http://github.com/mattfoster/mattfoster.github.com/blob/master/Rakefile "Rakefile at master from mattfoster's mattfoster.github.com - GitHub"). This is used to build `tags.html`, since as far as I can see, there's no easy way to enumerate tags in Jekyll 0.5.7 (and I can't use a custom for for GitHub hosting). My Rakefile is based on one I found at [http://gist.github.com/143571](http://gist.github.com/143571 "gist: 143571 -  GitHub"), and uses Jekyll to loop through the blog's categories and generate lists. I've opted to sort the list by the number of posts in each tag, and added some JavaScript to collapse the lists. Anchors take the place of individual tag pages in Mephisto and other engines. 
 
-Next, Jekyll ships with converters for importing posts from various blogging engines. The Mephisto script didn't support tagging, so I hacked the SQL to pull out the tags too. Here's a gist of my modified code:
+Next, Jekyll ships with converters for importing posts from various blogging engines. The Mephisto script didn't support tagging, so I hacked the SQL to pull out the tags too, and insert them into the YAML frontmatter block. Here's a gist of my modified code:
 
 <script src="http://gist.github.com/318743.js"></script>
 
