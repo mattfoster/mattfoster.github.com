@@ -10,7 +10,7 @@ layout: post
 
 Recently, I've been working on moving my blog to GitHub, and I've ported it to [Jekyll](http://wiki.github.com/mojombo/jekyll "Home - jekyll - GitHub"). This means it should be faster and more secure than Mephisto, which was always stuck several versions behind the current release, due to countless problems uploading and keeping the features I wanted. Thankfully, I've found ways of keeping those features with Jekyll. 
 
-It might obvious to any past visitors that I've had a go at redesigning the site. The new design is based on [mojombo's](http://github.com/mattfoster/mattfoster.github.com "mattfoster's mattfoster.github.com at master - GitHub") and as so as with his repository everything but the `_posts` directory is MIT licensed.
+It might be obvious to any past visitors that I've had a go at redesigning the site. The new design is based on [mojombo's](http://github.com/mattfoster/mattfoster.github.com "mattfoster's mattfoster.github.com at master - GitHub") and as so as with his repository everything but the `_posts` directory is MIT licensed.
 
 Whilst getting everything set up I had to make some changes and tweaks to some scripts and settings to get the behaviour I wanted. I'll list these below in the hope that they'll be useful to future migrators.
 
