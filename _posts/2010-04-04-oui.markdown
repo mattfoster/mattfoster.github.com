@@ -1,0 +1,31 @@
+--- 
+title: The OUI Database
+categories: 
+- networking
+- security
+- hardware
+layout: post
+---
+
+Most networking hardware uses some kind of hardware address. Typically comprised of 6 hexadecimal octets. The first three octets comprise the OUI, or organisationally unique identifier, which identifies the manufacturer. 
+
+On my MacBook, for example, the MAC address of the ethernet adapter starts
+with 00:19:E3, and VMWare's virtual interface starts with 00:50:56. The
+mappings between code and company are managed by the IEEE, and the OUI
+database is available for download from the
+[IEEE](http://standards.ieee.org/regauth/oui/oui.txt).
+
+Most scanning software uses OUI information to report on hardware manufacturers, but requires some pre-processing of the database before it can be used. Whilst doing research for another post, I found several separate OUI querying implementations used by various bits of scanning and analysis software. Each of them allows for post-install updates, but there's no common code, and they don't all ship with update utilities. If you have several scanning programs, you probably also have several copies of the OUI database.
+Since the OUI database is updated regularly, I decided it's worth detailing how the databases used by various bits of software can be updated.
+
+aircrack-ng ships with a script to update the database after installation (airodump-ng-oui-update). On my system, the OUI database is placed in `/usr/local/etc/aircrack-ng/airoump-ng-oui.txt` and appears to be a simple grep of all of the lines in the database containing `(hex)`. Running `airodump-ng-oui-update` as root is enough to keep aircrack-ng up to date.
+
+btscanner is a popular bluetooth scanner, whose DB can be regenerated using a perl script in the source distribution (on Debian based systems, you can find its OUI DB in `/usr/share/btscanner/oui.txt`). This appears to be comprised of the `(base-16)` lines in the OUI database, with extra whitespace removed. To keep btscanner's database up to date, you'll need to get the [source](http://www.pentest.co.uk/src/btscanner-2.1.tar.bz2 "btscanner 2.1"), and find `mk_oui_list.pl`. Then you can download the OUI file, and run the script to parse it.
+
+Kismet's database lives in `/etc/kismet/client_manuf` and `/etc/kismet/ap_manuf` and can be updated using a shell script which Debian systems keep in `/usr/share/doc/kismet/extra/manuf_update.sh`. This uses a couple of PHP scripts at [unbolted.net][http://www.unbolted.net], which currently appear to be down. These files are more complicated than the other software, and containing hexadecimal masks as well as manufacturer names. 
+
+nmap uses its own script to generate its DB, it's called `make-mac-prefixes.pl` and isn't shipped with the Debian packages. nmap's OUI database lives in `/usr/share/nmap/nmap-mac-prefixes`. This appears to be generated using the `(base-16)` lines, but with company names prettified and with some extra OUIs at the end of the file. nmap's site states that this file is generated with a simple perl script, but doesn't say how, and the source distribution doesn't include the script. Your best bet is probably keeping up to date with recent nmap versions. 
+
+[Wireshark's](http://wireshark.org) database is more complex than the others as it is maintained by Wireshark, and contains entries from multiple sources. The latest version is always available online, in [wireshark's repository](http://anonsvn.wireshark.org/wireshark/trunk/manuf). To stay up to date, periodically grab a new version of this file.
+
+It seems strange that this level of duplication exists, and it looks like somewhere a library might help. But until that happens this information should help you keep your software's databases up to date.
