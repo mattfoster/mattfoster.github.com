@@ -36,7 +36,8 @@ proportion of 'smart' phones and hands free devices has increased.
 
 Finally, since this years' data contains lots of timestamps, I decided to
 create a time series, showing which classes were visible at any given time.
-Here's a time series I made by binning the results into 30 minute intervals:
+Here's a time series I made by binning the results into 30 minute intervals, 
+and plotting them as a stacked area graph:
 
 ![Bluetooth Class Frequencies](/images/posts/jan2011_class_time_series.png)
 
