@@ -15,4 +15,4 @@ I based them on [this](http://technical.philex.com/networks/web/explain/images/c
 The License is [Creative Commons by Attribution 2.0](http://creativecommons.org/licenses/by/2.0/ "Creative Commons Attribution 2.0 Generic"), so feel free to do what you like with them!
 
   * [OmniGraffle File](http://files.hackerific.net/ethernet_cables.graffle.zip "Ethernet Cables")
-  * [PDF File](http://files.my-mili.eu/ethernet_cables.pdf "Ethernet Cables")
+  * [PDF File](http://files.hackerific.net/ethernet_cables.pdf "Ethernet Cables")
