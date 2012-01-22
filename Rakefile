@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 task :default => 'tags:generate'
 
 # Found at: http://gist.github.com/143571
