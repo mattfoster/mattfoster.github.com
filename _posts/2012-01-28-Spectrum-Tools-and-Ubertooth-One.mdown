@@ -1,0 +1,82 @@
+---                                                                             
+title: Spectrum Analysis with Ubertooth One and Spectrum-Tools
+categories:
+- electronics
+- radio
+- wifi
+- bluetooth
+- hardware
+- ubertooth
+- howto
+layout: post
+---
+
+In the last year or so there's been a fair amount of coverage of the excellent
+[Ubertooth](http://ubertooth.sourceforge.net/ "Project Ubertooth - Home")
+project. 
+
+Ubertooth One is an open source 2.4 GHz experimentation device, designed for
+messing with <a href="/tags.html#bluetooth">bluetooth</a>, but with a lot of 
+flexibility which gives rise some other very cool features, like spectrum
+monitoring.
+
+I installed the Kismet [Spectrum-Tools](http://www.kismetwireless.net/spectools/ "Spectrum-Tools") on a [Backtrack](http://www.backtrack-linux.org/ "BackTrack Linux - Penetration Testing Distribution") Linux box to play with, and thought I'd share a brief <a href="/tags.html#howto">howto</a>, along with some images. Click the images to view a larger version on <a href="http://skitch.com">Skitch.com</a>.
+
+## Building
+
+Spectrum-Tools is available via apt, but as is often the case, the available version is too old to have Ubertooth support. 
+
+So, first off, let's install a recent version of the Spectrum-Tools. Running
+
+    svn co https://www.kismetwireless.net/code/svn/tools/spectools 
+
+Will grab the latest version of the source code from Kismet's subversion repository. 
+Next, check the [README](https://www.kismetwireless.net/code/svn/tools/spectools/README), for information on dependencies, and install them. On BT5, I ran:
+
+    apt-get install libgtk2.0-dev libusb-dev
+	
+On Debian-based systems you'll probably need to prefix that with `sudo`. You'll also need a working build environment, so run:
+
+    apt-get install build-essential 
+	
+To install a pretty useful meta-package containing most build tools you're likely to need.
+
+Now, `cd` into the `spectools` directory, then type go through the standard (ageless) build process, of:
+
+    ./configure
+    make
+    make install 
+   
+To build and install the software. On my BT5 system, the final command installed the binaries into `/usr/local`, which seems to be where most of backtrack's special software ends up.
+
+## Playing
+
+Now that you have Spectrum-Tools installed, it's time to play. The prettiest
+thing to play with is `spectool_gtk`, so plug your Ubertooth in, fire it up,
+and click `Open Device`.  Next, click `Enable`, and you should be good to go.
+
+If everything worked, you'll see a colourful interface, with three horizontal
+panes, showing three different representations of the spectrum, with WiFi
+channels at the bottom.  
+
+<div class="thumbnail"><a href="https://skitch.com/mattfoster/g7hdj/spectools"><img src="https://img.skitch.com/20120201-fcu92ye8s19f9ckjsa3yius25r.preview.jpg" alt="spectools!" /></a><br /></div>
+
+The README file has more information on these different views, but I think the most interesting is the Spectral View, as you can clearly see frequency hopping devices as bright spots:
+
+<div class="thumbnail"><a href="https://skitch.com/mattfoster/g6gp2/spectools-spectral-view"><img src="https://img.skitch.com/20120202-cteq3hrt3p18gddbhybyuubhi8.preview.jpg" alt="spectools - spectral view" /></a><br /></div>
+
+If you're trying to decide on a channel to use for you wireless network, you'll probably find the Planar View most useful. This is a more traditional spectrum, and clearly shows how the channels are utilised. The Topo View shows signal peaks over time, and gives similar information to the Planar View:
+
+<div class="thumbnail"><a href="https://skitch.com/mattfoster/g7heg/spectools-topo-and-planar-views"><img src="https://img.skitch.com/20120201-euc6xyqf1jxxgsm79mc3kihnir.preview.jpg" alt="spectools, topo and planar views" /></a><br /></div>
+
+Right clicking on these two graphs lets you toggle a few options. If your
+Planar View, is looks too busy, for example, it can be useful to switch of the
+current values. 
+
+The Planar View also supports markers, and can show channel masks.  Markers
+aren't very well documented (and so this took me a while to work out!). To
+active markers, click on an entry in the table on the right, and then _drag_ on
+the planar view to drop the marker. To show a channel's mask, click on the
+channel number on the legend:
+
+<div class="thumbnail"><a href="https://skitch.com/mattfoster/g614u/spectool-planar-view"><img src="https://img.skitch.com/20120203-n5xisn4djamubqs38csqfqsa77.preview.jpg" alt="spectool - planar view" /></a><br /></div>
