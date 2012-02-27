@@ -1,4 +1,12 @@
-# Monitoring Things with collectd
+title: Monitoring Things with collectd 
+categories: 
+- monitoring
+- power
+- cacti
+- collectd
+- sysadmin
+layout: post 
+--- 
 
 I've had a cacti server for some time, but I recently decided to experimnent with collectd. In this post, I'll talk about how I ported my CurrentCost montoring code to work with collectd.
 
