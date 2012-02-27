@@ -1,3 +1,4 @@
+---
 title: Monitoring Things with collectd 
 categories: 
 - monitoring
