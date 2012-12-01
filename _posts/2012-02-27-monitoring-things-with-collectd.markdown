@@ -9,7 +9,7 @@ categories:
 layout: post 
 --- 
 
-I've had a cacti server for some time, but I recently decided to experimnent with collectd. In this post, I'll talk about how I ported my CurrentCost montoring code to work with collectd.
+I've had a cacti server for some time, but I recently decided to experiment with collectd. In this post, I'll talk about how I ported my CurrentCost monitoring code to work with collectd.
 
 ## What's wrong with cacti?
 
@@ -35,18 +35,18 @@ Getting data into collectd can be a little more complex if you use the network p
 
 I decided to port my CurrentCost monitoring script to collectd, and since the monitoring scripts I already have are written in ruby (and I'm lazy), I decided to use [ruby-collectd](https://github.com/astro/ruby-collectd), and [Daemons](http://daemons.rubyforge.org/ "Daemons").
 
-The CurrentCost has an RJ11 socket on the back which is actually a serial port (at 57600 baud 8N1). CurrentCost sell adapters for these (mine has a Prolific PL203), so it's dead easy to plug the thing into a computer. I use the [serialport](http://ruby-serialport.rubyforge.org/ "Ruby-serialport") gem to connect to this and read the data.
+The CurrentCost has an RJ11 socket on the back which is actually a serial port (at 57600 baud 8N1). CurrentCost sell adaptors for these (mine has a Prolific PL203), so it's dead easy to plug the thing into a computer. I use the [serialport](http://ruby-serialport.rubyforge.org/ "Ruby-serialport") gem to connect to this and read the data.
 
 Every six seconds, the CurrentCost monitor outputs a single line of XML, like this:
 
     <msg><src>CC128-v0.12</src><dsb>00656</dsb><time>13:43:51</time><tmpr>18.5</tmpr><sensor>0</sensor><id>00077</id><type>1</type><ch1><watts>01005</watts></ch1></msg>
 
-My script uses `rexml/document` to parse this, on the off-chance that some of the other data could become useful in future. Accessing the parsed data is then done using xpath expressopns, like this:
+My script uses `rexml/document` to parse this, on the off-chance that some of the other data could become useful in future. Accessing the parsed data is then done using xpath expressions, like this:
 
     xml.elements['//tmpr'].text.to_f
     xml.elements['//ch1/watts'].text.to_f
 	
-The final step is sending the data to collectd, with the ruby-collectd gem. Thankfully, the gem has decent documentation, but if you've not done much with collectd you might find the examples frustrating, because they don't actually work! This is because the method call is dynamically converted to the type you want to record (using `method_issing`), and _not__ aribtrary. For example, in the expression:
+The final step is sending the data to collectd, with the ruby-collectd gem. Thankfully, the gem has decent documentation, but if you've not done much with collectd you might find the examples frustrating, because they don't actually work! This is because the method call is dynamically converted to the type you want to record (using `method_missing`), and _not__ arbitrary. For example, in the expression:
 
     Stats.my_counter(:my_sleep).counter = 0
 

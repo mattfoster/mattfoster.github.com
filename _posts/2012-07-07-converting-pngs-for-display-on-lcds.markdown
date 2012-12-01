@@ -15,7 +15,7 @@ was a no-brainer :)
 
 The boards just arrived, so I decided to have a play by wiring one up to an Arduino and giving it a poke. 
 
-Frist, I grabbed the code samples from the [Sabernetic site](http://sabernetics.com/store/0-84-oled-display-96x16/), 
+First, I grabbed the code samples from the [Sabernetic site](http://sabernetics.com/store/0-84-oled-display-96x16/), 
 and after a quick look I noticed that it's based on Adafruit's 
 [OLED Display Library](https://github.com/adafruit/Adafruit_SSD1306).
 
