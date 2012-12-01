@@ -73,4 +73,4 @@ To run it, use:
 	
 And the magic of the Daemons library will be invoked. Finally, check your collectd's rrd directory to see if the data is being collected, then use something like the `collection3` frontend, or `rrdtool` to view some graphs!
 
-<div class="thumbnail"><a href="https://skitch.com/mattfoster/8ff7q/collection.cgi-version-3"><img src="https://img.skitch.com/20120227-ku2em9bguc6h4fs2rdj6xkq1sa.preview.jpg" alt="collection.cgi, Version 3" /></a></div>
+<a href="http://www.flickr.com/photos/mattfoster/8235410040/" title="collection.cgi-version-3 by mattfoster, on Flickr"><img src="http://farm9.staticflickr.com/8480/8235410040_bbc5550679.jpg" width="500" height="303" alt="collection.cgi-version-3"></a>

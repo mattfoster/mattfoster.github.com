@@ -59,15 +59,15 @@ If everything worked, you'll see a colourful interface, with three horizontal
 panes, showing three different representations of the spectrum, with WiFi
 channels at the bottom.  
 
-<div class="thumbnail"><a href="https://skitch.com/mattfoster/g7hdj/spectools"><img src="https://img.skitch.com/20120201-fcu92ye8s19f9ckjsa3yius25r.preview.jpg" alt="spectools!" /></a><br /></div>
+<a href="http://www.flickr.com/photos/mattfoster/8234348021/" title="spectools by mattfoster, on Flickr"><img src="http://farm9.staticflickr.com/8337/8234348021_b38356a8fd.jpg" width="500" height="310" alt="spectools"></a>
 
 The README file has more information on these different views, but I think the most interesting is the Spectral View, as you can clearly see frequency hopping devices as bright spots:
 
-<div class="thumbnail"><a href="https://skitch.com/mattfoster/g6gp2/spectools-spectral-view"><img src="https://img.skitch.com/20120202-cteq3hrt3p18gddbhybyuubhi8.preview.jpg" alt="spectools - spectral view" /></a><br /></div>
+<a href="http://www.flickr.com/photos/mattfoster/8235410638/" title="spectools-spectral-view by mattfoster, on Flickr"><img src="http://farm9.staticflickr.com/8060/8235410638_cd547584ba.jpg" width="500" height="310" alt="spectools-spectral-view"></a>
 
 If you're trying to decide on a channel to use for you wireless network, you'll probably find the Planar View most useful. This is a more traditional spectrum, and clearly shows how the channels are utilised. The Topo View shows signal peaks over time, and gives similar information to the Planar View:
 
-<div class="thumbnail"><a href="https://skitch.com/mattfoster/g7heg/spectools-topo-and-planar-views"><img src="https://img.skitch.com/20120201-euc6xyqf1jxxgsm79mc3kihnir.preview.jpg" alt="spectools, topo and planar views" /></a><br /></div>
+<a href="http://www.flickr.com/photos/mattfoster/8235410526/" title="spectools-topo-and-planar-views by mattfoster, on Flickr"><img src="http://farm9.staticflickr.com/8477/8235410526_8ae13d68d0.jpg" width="500" height="310" alt="spectools-topo-and-planar-views"></a>
 
 Right clicking on these two graphs lets you toggle a few options. If your
 Planar View, is looks too busy, for example, it can be useful to switch of the
@@ -79,4 +79,4 @@ active markers, click on an entry in the table on the right, and then _drag_ on
 the planar view to drop the marker. To show a channel's mask, click on the
 channel number on the legend:
 
-<div class="thumbnail"><a href="https://skitch.com/mattfoster/g614u/spectool-planar-view"><img src="https://img.skitch.com/20120203-n5xisn4djamubqs38csqfqsa77.preview.jpg" alt="spectool - planar view" /></a><br /></div>
+<a href="http://www.flickr.com/photos/mattfoster/8235422850/" title="spectool-planar-view by mattfoster, on Flickr"><img src="http://farm9.staticflickr.com/8488/8235422850_e66e852bbb.jpg" width="500" height="220" alt="spectool-planar-view"></a>
