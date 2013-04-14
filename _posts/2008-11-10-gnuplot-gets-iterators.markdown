@@ -23,4 +23,4 @@ I downloaded and compiled the sources and whipped up a quick example of my own (
 
 <div class="thumbnail"><a href="http://skitch.com/mattfoster/5gp6/gnuplot-has-iterators"><img src="http://img.skitch.com/20081110-dhu9jhct8hha9qhpwiutji3cg7.preview.jpg" alt="gnuplot has iterators!" /></a><br /><span style="font-family: Lucida Grande, Trebuchet, sans-serif, Helvetica, Arial; font-size: 10px; color: #808080">Uploaded with <a href="http://plasq.com/">plasq</a>'s <a href="http://skitch.com">Skitch</a>!</span></div>
 
-I've got preliminary support going in the [Gnuplot TextMate bundle](github.com/mattfoster/gnuplot-tmbundle), but I'm still not 100% happy with it yet.
+I've got preliminary support going in the [Gnuplot TextMate bundle](https://github.com/mattfoster/gnuplot-tmbundle), but I'm still not 100% happy with it yet.

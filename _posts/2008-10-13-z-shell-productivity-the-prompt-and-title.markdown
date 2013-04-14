@@ -8,12 +8,12 @@ categories:
 layout: post
 ---
 I've recently been playing with a cool project on GitHub:
-[zshkit](github.com/bkerley/zshkit/) . It's a basically just way of organising
+[zshkit](https://github.com/bkerley/zshkit/) . It's a basically just way of organising
 your [zsh](http://www.zsh.org/ "Zsh") config files, but it's inspired me to
 look at improving my shell productivity and I hope to post a few times about
 this.
 
-One of the many changes I made to [my fork](github.com/mattfoster/zshkit/) of
+One of the many changes I made to [my fork](https://github.com/mattfoster/zshkit/) of
 zshkit, is to minimise the prompt. It's something I've not really considered
 before, and I've pretty much always used something a lot like
 [gentoo](http://www.gentoo.org/ "Gentoo Linux -- Gentoo Linux News")'s
