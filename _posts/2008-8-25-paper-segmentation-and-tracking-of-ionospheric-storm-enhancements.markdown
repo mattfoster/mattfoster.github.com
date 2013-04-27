@@ -16,4 +16,4 @@ electronic reprint (preprint) with permission of SPIE. One print or electronic c
 Systematic or multiple reproduction, distribution to multiple locations via electronic or other means, duplication of any
 material in this paper for a fee or for commercial purposes, or modification of the content of the paper are prohibited.
 
-You can find the paper online at: [Segmentation and tracking of ionospheric storm enhancements M. P. Foster and A. N. Evans](http://files.my-mili.eu/spie_2008.pdf "") ~1 MiB
+You can find the paper online at: [Segmentation and tracking of ionospheric storm enhancements M. P. Foster and A. N. Evans](http://files.hackerific.net/spie_2008.pdf "") ~1 MiB

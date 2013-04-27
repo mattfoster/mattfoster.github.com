@@ -14,7 +14,7 @@ The IEEE's copyright policy states that I may host a copy of this paper, provide
 
 &copy; 2008 IEEE. Personal use of this material is permitted. However, permission to reprint/republish this material for advertising or promotional purposes or for creating new collective works for resale or redistribution to servers or lists, or to reuse any copyrighted component of this work in other works must be obtained from the IEEE.
 
-So, with that out of the way, the final article may be downloaded here: [An Evaluation of Interpolation Methods for Ionospheric TEC Mapping, M. P. Foster and A. N. Evans](http://files.my-mili.eu/igarss_interpolation.pdf).
+So, with that out of the way, the final article may be downloaded here: [An Evaluation of Interpolation Methods for Ionospheric TEC Mapping, M. P. Foster and A. N. Evans](http://files.hackerific.net/igarss_interpolation.pdf).
 
 You can find the full abstract, and citation on [IEEE Explore](http://ieeexplore.ieee.org/xpls/abs_all.jsp?isnumber=4544940&arnumber=4544944&count=31&index=30). 
 

@@ -13,7 +13,7 @@ That's why I decided to add support for gnuplot's built-in help into the [Gnuplo
 
 The result: select a gnuplot keyword, press ⌃H, and read the output.
 
-![Gnuplot Help](http://files.my-mili.eu/2008-05-30_gnuplot_help.jpg)
+![Gnuplot Help](http://files.hackerific.net/2008-05-30_gnuplot_help.jpg)
 
 Another couple of features which I'm too proud of not to mention are:
 

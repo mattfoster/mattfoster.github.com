@@ -6,16 +6,16 @@ categories:
 - idioms
 layout: post
 ---
-<a href="http://files.my-mili.eu/Best_Practices.m4a">Listen to this post</a>
+<a href="http://files.hackerific.net/Best_Practices.m4a">Listen to this post</a>
 
 <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="Anjuna_Episode_Player" width="100%" height="25" codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
 		<param name="movie" value="http://podcastpickle.com/.assets/flash/Anjuna_Episode_Player.swf" />
 		<param name="quality" value="high" />
 		<param name="bgcolor" value="#869ca7" />
 		<param name="allowScriptAccess" value="sameDomain" />
-		<param name="flashVars" value="titleString=Best Practices&soundURI=http://files.my-mili.eu/best_practices.mp3" />
+		<param name="flashVars" value="titleString=Best Practices&soundURI=http://files.hackerific.net/best_practices.mp3" />
 		<embed src="http://podcastpickle.com/.assets/flash/Anjuna_Episode_Player.swf" quality="high" bgcolor="#869ca7"
-			width="100%" height="25" name="Anjuna_Episode_Player" align="middle" play="true" loop="false" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" flashVars="titleString=Best Practices&soundURI=http://files.my-mili.eu/Best_Practices.m4a" pluginspage="http://www.adobe.com/go/getflashplayer">
+			width="100%" height="25" name="Anjuna_Episode_Player" align="middle" play="true" loop="false" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" flashVars="titleString=Best Practices&soundURI=http://files.hackerific.net/Best_Practices.m4a" pluginspage="http://www.adobe.com/go/getflashplayer">
 		</embed>
 </object>
 

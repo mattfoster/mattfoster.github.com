@@ -10,7 +10,7 @@ layout: post
 ---
 A few days ago, on one of my regular [del.icio.us/popular](http://del.icio.us/popular/ "Popular pages on del.icio.us") <strike>procrastination</strike> research trawls, I discovered [DTerm](http://www.decimus.net/dterm.php "DTerm"), a HUD style, context-sensitive, drop down command line thingemy. It's pretty cool, with useful features like 'insert selected items', and 'copy results' and after a couple of updates I can see it being totally great. 
 
-Here's a quick screenshot:  ![Dterm](http://files.my-mili.eu/2008-01-17_dterm1.jpg)
+Here's a quick screenshot:  ![Dterm](http://files.hackerific.net/2008-01-17_dterm1.jpg)
 
 I'd recommend taking at look at their site for a more complete screencast with some useful ideas.
 

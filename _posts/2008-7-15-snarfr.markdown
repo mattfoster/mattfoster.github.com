@@ -19,7 +19,7 @@ To run it, type `ruby snarfr.rb`, or `chmod +x` it, and then do `./snarfr.rb`. I
 
 snarfr *tries* to be intelligent by saving it's progress to the file `~/.snarfr`, but it only does this when it exits normally. On the first run, it will ask you to authorise it, to do that, you need to visit the URL it gives.
 
-You can find snarfr in subversion at: [snarfr svn](http://svn.my-mili.eu/svn/snarfr/ "snarfr - Revision 10: /"), ready for *you* to snarf. Or you can get it from [GitHub](http://github.com/ "Secure Git hosting and collaborative development &mdash; GitHub") at: [snarfr](http://github.com/mattfoster/snarfr/tree/master "mattfoster's snarfr at master &mdash; GitHub").
+You can find snarfr in subversion at: [snarfr svn](http://svn.hackerific.net/svn/snarfr/ "snarfr - Revision 10: /"), ready for *you* to snarf. Or you can get it from [GitHub](http://github.com/ "Secure Git hosting and collaborative development &mdash; GitHub") at: [snarfr](http://github.com/mattfoster/snarfr/tree/master "mattfoster's snarfr at master &mdash; GitHub").
 
 Note: I lost the original description page when I nuked my site. So this is a new one.
 
