@@ -92,7 +92,7 @@ I don't think there's anything surprising there.
 
 There wasn't much download activity, which is interesting and probably indicates that lots of SSH scanners just run unattended on large blocks and their owners check the results later. Or it could indicate a lack of realism in my honeypot setup.
 
-Over the entire time the honeypot was running there were 25 downloads in total. Most of these were tarballs of scanning tools, but four of the 25 were cachefly test files and Microsoft service packs. In these cases I think the attackers were probably intending to use the system in DoS attacks, and were using the big downloads to jude available bandwidth. 
+Over the entire time the honeypot was running there were 25 downloads in total. Most of these were tarballs of scanning tools, but four of the 25 were cachefly test files and Microsoft service packs. In these cases I think the attackers were probably intending to use the system in DoS attacks, and were using the big downloads to judge available bandwidth. 
 
 Here's an example terminal session:
 
