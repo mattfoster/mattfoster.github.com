@@ -8,7 +8,7 @@ layout: nil
  <link href="http://hackerific.net/atom.xml" rel="self"/>
  <link href="http://hackerific.net/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://hackerific.net</id>
+ <id>http://hackerific.net/</id>
  <author>
    <name>Matt Foster</name>
    <email>matt.p.foster@gmail.com</email>
