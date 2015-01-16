@@ -20,13 +20,15 @@ The input could come from POSTing a form, or from a URL parameter, like:
 
     https://example.com/app?user_supplied_input=test
     
-You could be forgiven for thinking that because you've used the [HTML filter](http://www.template-toolkit.org/docs/manual/Filters.html#section_html) you user supplied input will be safely encoded, but in this case you'd be wrong!
+You could be forgiven for thinking that because you've used the [HTML filter](http://www.template-toolkit.org/docs/manual/Filters.html#section_html) your user supplied input will be safely encoded, but in this case you'd be wrong!
 
 Generally, I find that Template Toolkit follows the [principle of least astonishment](http://en.wikipedia.org/wiki/Principle_of_least_astonishment), but read this snippet of the docs closely, and you might spot the issue:
 
-> Converts the characters <, >, & and " to &lt;, &gt;,&amp;, and &quot; respectively, protecting them from being interpreted as representing HTML tags or entities.
+    Converts the characters <, >, & and " to &lt;, &gt;,&amp;, and &quot;
+    respectively, protecting them from being interpreted as representing HTML
+    tags or entities.
 
-That's right, it doesn't encode single quote characters! That means that all a malicious user needs to do to perform a cross-site scripting attack is escape out of the attribute using a single quote, and inject whatever they want.
+That's right, it doesn't encode single quote characters! That means that all a malicious user need do to perform a cross-site scripting attack is escape out of the attribute using a single quote, and inject whatever they want.
 
 One contrived example might be this:
 
